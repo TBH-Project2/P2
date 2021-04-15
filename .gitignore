@@ -103,6 +103,7 @@ celerybeat.pid
 
 # Environments
 .env
+*.env
 .venv
 env/
 venv/
@@ -113,6 +114,10 @@ venv.bak/
 # Spyder project settings
 .spyderproject
 .spyproject
+
+# Shell scripts
+.sh
+*.sh
 
 # Rope project settings
 .ropeproject
